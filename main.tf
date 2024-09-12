@@ -7,14 +7,6 @@ terraform {
   }
 }
 
-provider "azurerm" {
-  # Configuration options
-}
-
-resource "azurerm_resource_group" "rg" {
-  name     = "example"
-  location = "West Europe"
-}
 
 locals {
   tags = {
